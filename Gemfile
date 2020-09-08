@@ -5,7 +5,7 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
-# Use sqlite3 as the database for Active Record
+
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -35,6 +35,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+
   gem 'web-console', '>= 3.3.0'
 end
 
